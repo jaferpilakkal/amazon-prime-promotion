@@ -219,6 +219,12 @@ function initMobileNav() {
       navLinks.classList.remove('open');
     });
   });
+
+  document.addEventListener('click', (e) => {
+    if (!toggleBtn.contains(e.target) && !navLinks.contains(e.target) && navLinks.classList.contains('open')) {
+      navLinks.classList.remove('open');
+    }
+  });
 }
 
 /**

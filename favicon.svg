@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#112236" />
+      <stop offset="100%" stop-color="#080E14" />
+    </linearGradient>
+    <linearGradient id="primeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#00A8E1" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB340" />
+      <stop offset="100%" stop-color="#FF9900" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with Glow Border -->
+  <rect x="20" y="20" width="472" height="472" rx="108" fill="url(#bgGrad)" stroke="#00A8E1" stroke-width="12" stroke-opacity="0.4" />
+
+  <!-- Modern Stylized 'P' Monogram -->
+  <path d="M 160 110 L 296 110 C 360 110 404 150 404 214 C 404 276 360 316 296 316 L 232 316 L 232 388 C 232 402 220 412 206 412 L 186 412 C 172 412 160 402 160 388 Z" fill="url(#primeGrad)" />
+  <path d="M 232 178 L 290 178 C 322 178 340 192 340 214 C 340 236 322 250 290 250 L 232 250 Z" fill="#0C1724" />
+
+  <!-- Dynamic Prime Arc Smile in Vibrant Amazon Amber -->
+  <path d="M 140 376 C 216 444 326 442 392 372" fill="none" stroke="url(#amberGrad)" stroke-width="26" stroke-linecap="round" />
+  <!-- Dynamic Smile Arrowhead -->
+  <path d="M 406 366 L 368 360 L 388 392 Z" fill="url(#amberGrad)" />
+
+  <!-- Member Perks Star/Sparkle -->
+  <polygon points="392,100 398,118 416,124 398,130 392,148 386,130 368,124 386,118" fill="url(#amberGrad)" filter="url(#glow)" />
+</svg>

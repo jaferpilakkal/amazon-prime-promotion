@@ -1,0 +1,8 @@
+# robots.txt for Prime Perks Guide
+# Allow all search crawlers (Googlebot, Bingbot, Applebot, etc.)
+
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://primeperksguide.com/sitemap.xml

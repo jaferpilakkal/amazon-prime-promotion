@@ -102,9 +102,9 @@ function initSavingsCalculator() {
     calcAnnualValue.textContent = `$${totalAnnualValue}`;
     if (netGain >= 0) {
       calcNetPill.textContent = `+$${netGain} Net Gain vs $139 Prime`;
-      calcNetPill.style.color = 'var(--moss-pear)';
-      calcNetPill.style.background = 'rgba(212, 222, 149, 0.16)';
-      calcNetPill.style.borderColor = 'var(--border-active)';
+      calcNetPill.style.color = 'var(--accent-positive-text)';
+      calcNetPill.style.background = 'var(--accent-positive-bg)';
+      calcNetPill.style.borderColor = 'var(--accent-positive-border)';
     } else {
       calcNetPill.textContent = `Breakeven Value`;
     }

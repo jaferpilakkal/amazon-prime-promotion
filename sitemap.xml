@@ -96,6 +96,30 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Editorial Guide: Classic Novels to Listen to in 2026 -->
+  <url>
+    <loc>https://savvyfindsonline.com/blog-classic-audiobooks-2026.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Editorial Guide: How Audiobooks Boost Productivity -->
+  <url>
+    <loc>https://savvyfindsonline.com/blog-audiobooks-productivity-habits.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Editorial Guide: Top 10 Audiobook Deals & Credits -->
+  <url>
+    <loc>https://savvyfindsonline.com/blog-audible-deals-credits-guide.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Publisher Transparency & Contact -->
   <url>
     <loc>https://savvyfindsonline.com/contact.html</loc>

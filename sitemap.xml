@@ -72,6 +72,30 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Editorial Guide: Bestselling Audiobooks & Why They're Popular -->
+  <url>
+    <loc>https://savvyfindsonline.com/blog-bestselling-audiobooks-trends.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Editorial Guide: Most Anticipated Audiobook Releases of Late 2026 -->
+  <url>
+    <loc>https://savvyfindsonline.com/blog-most-anticipated-audiobooks-late-2026.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Editorial Guide: Top 5 BookTok Hits on Audio -->
+  <url>
+    <loc>https://savvyfindsonline.com/blog-viral-booktok-audiobooks.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Publisher Transparency & Contact -->
   <url>
     <loc>https://savvyfindsonline.com/contact.html</loc>

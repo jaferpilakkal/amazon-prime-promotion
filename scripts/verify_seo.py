@@ -17,6 +17,13 @@ PAGES = [
     "blog-prime-worth-it-2026.html",
     "blog-prime-discount-young-adult-access.html",
     "blog-audible-free-trial-guide.html",
+    "blog-best-audiobooks-2026.html",
+    "blog-top-fantasy-audiobooks-2026.html",
+    "blog-book-vs-audiobook-guide.html",
+    "blog-best-audiobook-narrators-2026.html",
+    "blog-bestselling-audiobooks-trends.html",
+    "blog-most-anticipated-audiobooks-late-2026.html",
+    "blog-viral-booktok-audiobooks.html",
     "contact.html",
     "disclosure.html",
     "privacy.html",
@@ -71,6 +78,13 @@ def check_robots_and_sitemap():
         "https://savvyfindsonline.com/blog-prime-worth-it-2026.html",
         "https://savvyfindsonline.com/blog-prime-discount-young-adult-access.html",
         "https://savvyfindsonline.com/blog-audible-free-trial-guide.html",
+        "https://savvyfindsonline.com/blog-best-audiobooks-2026.html",
+        "https://savvyfindsonline.com/blog-top-fantasy-audiobooks-2026.html",
+        "https://savvyfindsonline.com/blog-book-vs-audiobook-guide.html",
+        "https://savvyfindsonline.com/blog-best-audiobook-narrators-2026.html",
+        "https://savvyfindsonline.com/blog-bestselling-audiobooks-trends.html",
+        "https://savvyfindsonline.com/blog-most-anticipated-audiobooks-late-2026.html",
+        "https://savvyfindsonline.com/blog-viral-booktok-audiobooks.html",
         "https://savvyfindsonline.com/contact.html",
         "https://savvyfindsonline.com/disclosure.html",
         "https://savvyfindsonline.com/privacy.html",
@@ -78,7 +92,7 @@ def check_robots_and_sitemap():
     ]
     for ep in expected_paths:
         assert ep in urls, f"Missing {ep} in sitemap"
-    print("  [PASS] All 9 URLs registered in sitemap.xml")
+    print(f"  [PASS] All {len(expected_paths)} URLs registered in sitemap.xml")
 
 def audit_html_pages():
     print("\n=== 3. Auditing HTML Head Metadata, Favicons & Schema ===")

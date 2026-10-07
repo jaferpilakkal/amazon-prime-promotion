@@ -5,7 +5,7 @@
 const SITE_CONFIG = {
   associateTag: 'tubejaf-20',
   siteName: 'Prime Perks Guide',
-  supportEmail: 'contact@primeperksguide.com',
+  supportEmail: 'contact@savvyfindsonline.com',
   affiliateEnabled: true
 };
 

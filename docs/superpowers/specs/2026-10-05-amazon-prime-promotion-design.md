@@ -109,7 +109,7 @@ All outbound affiliate links include `target="_blank" rel="nofollow sponsored no
 const SITE_CONFIG = {
   associateTag: 'primeperks-20', // User replaces with their real associate tag
   siteName: 'Prime Perks Guide',
-  contactEmail: 'support@primeperksguide.com',
+  contactEmail: 'support@savvyfindsonline.com',
   enableAffiliateTagging: true
 };
 ```

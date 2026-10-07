@@ -1,0 +1,11 @@
+# Local environment & agents
+.agents/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

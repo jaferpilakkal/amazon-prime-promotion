@@ -189,7 +189,7 @@ def generate_og_share_image():
     # Bottom Bar / Trust Footer
     draw.line([(90, 520), (w - 90, 520)], fill=(255, 255, 255, 35), width=1)
     draw.text((90, 545), "Prime Perks Guide — Independent Consumer Buying & Savings Hub", font=font_footer, fill=(148, 163, 184))
-    draw.text((w - 380, 545), "https://primeperksguide.com", font=font_footer, fill=(255, 153, 0))
+    draw.text((w - 380, 545), "https://savvyfindsonline.com", font=font_footer, fill=(255, 153, 0))
 
     og_out = os.path.join(IMAGES_DIR, "og-share.png")
     img.save(og_out, format="PNG", optimize=True)

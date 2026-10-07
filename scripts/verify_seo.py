@@ -56,7 +56,7 @@ def check_robots_and_sitemap():
     with open(robots_path, "r", encoding="utf-8") as f:
         robots_txt = f.read()
     
-    assert "Sitemap: https://primeperksguide.com/sitemap.xml" in robots_txt, "robots.txt missing Sitemap directive"
+    assert "Sitemap: https://savvyfindsonline.com/sitemap.xml" in robots_txt, "robots.txt missing Sitemap directive"
     print("  [PASS] robots.txt is valid and points to sitemap")
 
     sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
@@ -66,15 +66,15 @@ def check_robots_and_sitemap():
     print(f"  [PASS] sitemap.xml parsed successfully ({len(urls)} URLs found)")
     
     expected_paths = [
-        "https://primeperksguide.com/",
-        "https://primeperksguide.com/blog.html",
-        "https://primeperksguide.com/blog-prime-worth-it-2026.html",
-        "https://primeperksguide.com/blog-prime-discount-young-adult-access.html",
-        "https://primeperksguide.com/blog-audible-free-trial-guide.html",
-        "https://primeperksguide.com/contact.html",
-        "https://primeperksguide.com/disclosure.html",
-        "https://primeperksguide.com/privacy.html",
-        "https://primeperksguide.com/terms.html"
+        "https://savvyfindsonline.com/",
+        "https://savvyfindsonline.com/blog.html",
+        "https://savvyfindsonline.com/blog-prime-worth-it-2026.html",
+        "https://savvyfindsonline.com/blog-prime-discount-young-adult-access.html",
+        "https://savvyfindsonline.com/blog-audible-free-trial-guide.html",
+        "https://savvyfindsonline.com/contact.html",
+        "https://savvyfindsonline.com/disclosure.html",
+        "https://savvyfindsonline.com/privacy.html",
+        "https://savvyfindsonline.com/terms.html"
     ]
     for ep in expected_paths:
         assert ep in urls, f"Missing {ep} in sitemap"

@@ -883,7 +883,7 @@ const SITE_CONFIG = {
   // Replace with your actual Amazon Associate Tracking ID (e.g. 'myprimeguide-20')
   associateTag: 'primeperks-20',
   siteName: 'Prime Perks Guide',
-  supportEmail: 'contact@primeperksguide.com',
+  supportEmail: 'contact@savvyfindsonline.com',
   affiliateEnabled: true
 };
 

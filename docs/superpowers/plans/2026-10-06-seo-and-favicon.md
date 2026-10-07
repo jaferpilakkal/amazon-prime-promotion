@@ -17,7 +17,7 @@
 
 ## Global Constraints
 
-- Domain canonical base: `https://primeperksguide.com`
+- Domain canonical base: `https://savvyfindsonline.com`
 - Brand colors: Primary Dark `#0A1118`, Prime Cyan `#00A8E1`, Amazon Amber `#FF9900`, Text `#F1F5F9`.
 - Zero broken links or external runtime dependencies.
 - Zero placeholder or "TODO" values anywhere in code or metadata.
@@ -158,7 +158,7 @@ Create `site.webmanifest` with full metadata:
 User-agent: *
 Allow: /
 
-Sitemap: https://primeperksguide.com/sitemap.xml
+Sitemap: https://savvyfindsonline.com/sitemap.xml
 ```
 
 - [ ] **Step 2: Create `sitemap.xml` with all 9 site URLs**
@@ -188,7 +188,7 @@ Include standard `urlset` with `loc`, `lastmod`, `changefreq`, and `priority`:
 - [ ] **Step 1: Update `index.html` head section with canonical, favicon suite, OG tags, Twitter tags, and theme-color**
 
 Add:
-- `<link rel="canonical" href="https://primeperksguide.com/">`
+- `<link rel="canonical" href="https://savvyfindsonline.com/">`
 - `<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">`
 - `<meta name="theme-color" content="#0A1118">`
 - Favicons:
@@ -201,9 +201,9 @@ Add:
   - `og:site_name`: Prime Perks Guide
   - `og:title`: Amazon Prime Perks & Special Offers Guide (2026) | 30-Day Free Trials
   - `og:description`: Complete independent guide to Amazon Prime membership benefits, 30-day free trials, student & young adult discounts, Audible credits, and member savings.
-  - `og:url`: https://primeperksguide.com/
+  - `og:url`: https://savvyfindsonline.com/
   - `og:type`: website
-  - `og:image`: https://primeperksguide.com/images/og-share.png
+  - `og:image`: https://savvyfindsonline.com/images/og-share.png
   - `og:image:width`: 1200
   - `og:image:height`: 630
   - `og:locale`: en_US
@@ -211,7 +211,7 @@ Add:
   - `twitter:card`: summary_large_image
   - `twitter:title`: Amazon Prime Perks & Special Offers Guide (2026)
   - `twitter:description`: Complete independent guide to Amazon Prime benefits, 30-day free trials, student discounts, and member savings.
-  - `twitter:image`: https://primeperksguide.com/images/og-share.png
+  - `twitter:image`: https://savvyfindsonline.com/images/og-share.png
 
 - [ ] **Step 2: Add comprehensive JSON-LD Structured Data to `index.html`**
 
@@ -243,19 +243,19 @@ Inject JSON-LD schemas:
 
 - [ ] **Step 2: Update `blog-prime-worth-it-2026.html`**
 - Replace emoji favicon with branded favicon suite and `site.webmanifest`.
-- Add Open Graph and Twitter Card tags pointing to `https://primeperksguide.com/images/prime-worth-it-guide.jpg`.
+- Add Open Graph and Twitter Card tags pointing to `https://savvyfindsonline.com/images/prime-worth-it-guide.jpg`.
 - Add robots tag (`index, follow, max-image-preview:large`).
 - Enhance JSON-LD `BlogPosting` with BreadcrumbList (`Home > Guides > Is Prime Worth It in 2026?`), word count, and article body summary.
 
 - [ ] **Step 3: Update `blog-prime-discount-young-adult-access.html`**
 - Replace emoji favicon with branded favicon suite and `site.webmanifest`.
-- Add Open Graph and Twitter Card tags pointing to `https://primeperksguide.com/images/young-adult-access-guide.jpg`.
+- Add Open Graph and Twitter Card tags pointing to `https://savvyfindsonline.com/images/young-adult-access-guide.jpg`.
 - Add robots tag (`index, follow, max-image-preview:large`).
 - Enhance JSON-LD `BlogPosting` with BreadcrumbList (`Home > Guides > 50% Off Young Adult & Prime Access Guide`).
 
 - [ ] **Step 4: Update `blog-audible-free-trial-guide.html`**
 - Replace emoji favicon with branded favicon suite and `site.webmanifest`.
-- Add Open Graph and Twitter Card tags pointing to `https://primeperksguide.com/images/audible-trial-guide.jpg`.
+- Add Open Graph and Twitter Card tags pointing to `https://savvyfindsonline.com/images/audible-trial-guide.jpg`.
 - Add robots tag (`index, follow, max-image-preview:large`).
 - Enhance JSON-LD `BlogPosting` with BreadcrumbList (`Home > Guides > Audible 30-Day Free Trial Guide`).
 
@@ -274,25 +274,25 @@ Inject JSON-LD schemas:
 - Produces: Proper canonical links, favicon suite, Open Graph tags, Twitter tags, robots directives, and WebPage / ContactPage JSON-LD schemas.
 
 - [ ] **Step 1: Update `contact.html`**
-- Add canonical link `https://primeperksguide.com/contact.html`.
+- Add canonical link `https://savvyfindsonline.com/contact.html`.
 - Add favicon suite and manifest.
 - Add robots tag, Open Graph tags, Twitter card tags.
 - Add `ContactPage` JSON-LD schema with publisher contact info.
 
 - [ ] **Step 2: Update `disclosure.html`**
-- Add canonical link `https://primeperksguide.com/disclosure.html`.
+- Add canonical link `https://savvyfindsonline.com/disclosure.html`.
 - Add favicon suite and manifest.
 - Add robots tag, Open Graph tags, Twitter card tags.
 - Add `WebPage` JSON-LD schema.
 
 - [ ] **Step 3: Update `privacy.html`**
-- Add canonical link `https://primeperksguide.com/privacy.html`.
+- Add canonical link `https://savvyfindsonline.com/privacy.html`.
 - Add favicon suite and manifest.
 - Add robots tag, Open Graph tags, Twitter card tags.
 - Add `WebPage` JSON-LD schema.
 
 - [ ] **Step 4: Update `terms.html`**
-- Add canonical link `https://primeperksguide.com/terms.html`.
+- Add canonical link `https://savvyfindsonline.com/terms.html`.
 - Add favicon suite and manifest.
 - Add robots tag, Open Graph tags, Twitter card tags.
 - Add `WebPage` JSON-LD schema.

@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://primeperksguide.com/sitemap.xml
+Sitemap: https://savvyfindsonline.com/sitemap.xml
